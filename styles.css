@@ -112,7 +112,7 @@ body {
 
 .preview-image img {
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   border-radius: 16px;
 }
 
@@ -205,12 +205,9 @@ body {
 }
 
 .focus {
-  display: flex;
-  flex-direction: column;
   background-color: #ffffff;
   padding: 60px 20px;
   text-align: center;
-  border: 2px red solid;
 }
 
 .focus-container h2 {
@@ -228,6 +225,7 @@ body {
   width: 100%;
   max-width: 840px;
   border-radius: 16px;
+  border: 2px red solid;
 }
 
 .contact {
@@ -324,4 +322,32 @@ body {
   text-decoration: none;
   color: #444;
   font-size: 14px;
+}
+
+.btn-primary:hover {
+  scale: 0.9;
+  background-color: yellowgreen;
+  transition: 0.2s ease-in-out;
+  color: #222;
+}
+
+.btn-secondary:hover {
+  scale: 0.9;
+  background-color: yellowgreen;
+  transition: 0.2s ease-in-out;
+  color: #222;
+}
+
+.btn-large:hover {
+  scale: 0.9;
+  background-color: yellowgreen;
+  transition: 0.2s ease-in-out;
+  color: #222;
+}
+
+.btn-signup:hover {
+  scale: 0.9;
+  background-color: yellowgreen;
+  transition: 0.2s ease-in-out;
+  color: #222;
 }
