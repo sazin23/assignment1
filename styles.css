@@ -291,3 +291,37 @@ body {
   font-size: 16px;
   font-weight: 500;
 }
+
+.footer {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  color: #4e47ff;
+  letter-spacing: 5px;
+}
+
+.footer-container p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  color: #8987a1;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+}
