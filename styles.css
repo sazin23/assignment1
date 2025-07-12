@@ -115,3 +115,38 @@ body {
   max-width: 300px;
   border-radius: 16px;
 }
+
+.stats {
+  background-color: #eef0ff;
+  padding: 60px 20px;
+  text-align: center;
+  margin: 0px auto;
+  width: 1140px;
+  border-radius: 20px;
+}
+
+.stats-container h3 {
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat span {
+  font-family: "Inter", sans-serif;
+  display: block;
+  font-size: 80px;
+  color: #4e47ff;
+  font-weight: 800;
+}
+
+.stat p {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #444;
+}
