@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  color: #222;
+  background-color: #f8f9ff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  color: #4e47ff;
+}
+
+.btn-signup {
+  padding: 10px 20px;
+  background-color: #4e47ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  height: 48px;
+  width: 174px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.hero-container h1 {
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  padding: 12px 24px;
+  background-color: #4e47ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  height: 48px;
+  width: 174px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
