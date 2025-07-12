@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -21,11 +21,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .logo {
   font-family: "Inter", sans-serif;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 34px;
   color: #4e47ff;
 }
@@ -40,17 +41,22 @@ body {
   width: 174px;
   cursor: pointer;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .hero {
+  height: 700px;
   text-align: center;
   padding: 0px 20px;
+  background-image: url("/images/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-container h1 {
   font-size: 65px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .btn-primary {
@@ -63,5 +69,49 @@ body {
   width: 174px;
   cursor: pointer;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
+}
+
+.preview {
+  padding: 60px 20px;
+}
+
+.preview-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.preview-text {
+  flex: 1;
+}
+
+.preview-text h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.preview-text p {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.btn-secondary {
+  padding: 10px 20px;
+  background-color: #4e47ff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.preview-image img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 16px;
 }
